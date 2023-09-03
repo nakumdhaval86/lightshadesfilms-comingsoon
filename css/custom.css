@@ -134,6 +134,14 @@ a:focus {
   font-style: normal !important;
 }
 
+.cta-wrapper a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit;
+}
+
 .site-info h2 {
   text-transform: uppercase;
   letter-spacing: 0.16em;
